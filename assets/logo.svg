@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90">
+  <defs>
+    <linearGradient id="arrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8, 8)">
+    <!-- Cloud outline - complete closed shape -->
+    <path d="M22 52
+             C10 52 2 44 2 34
+             C2 24 10 16 22 16
+             C24 16 26 16.3 28 17
+             C32 10 42 5 54 5
+             C70 5 82 16 84 30
+             C96 32 106 42 106 56
+             C106 70 94 80 80 80
+             L28 80
+             C14 80 4 70 4 58
+             C4 54 6 52 10 50"
+          fill="none"
+          stroke="#1a365d"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Circuit traces - left side -->
+    <path d="M18 38 L26 38 L26 30 L34 30" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="18" cy="38" r="2.5" fill="#1a365d"/>
+    <circle cx="34" cy="30" r="2.5" fill="#1a365d"/>
+
+    <path d="M14 50 L22 50 L22 58 L30 58" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="14" cy="50" r="2.5" fill="#1a365d"/>
+    <circle cx="30" cy="58" r="2.5" fill="#1a365d"/>
+
+    <path d="M24 68 L36 68" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="24" cy="68" r="2" fill="#1a365d"/>
+    <circle cx="36" cy="68" r="2" fill="#1a365d"/>
+
+    <!-- Circuit traces - right side -->
+    <path d="M78 28 L86 28 L86 36 L94 36" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="78" cy="28" r="2.5" fill="#1a365d"/>
+    <circle cx="94" cy="36" r="2.5" fill="#1a365d"/>
+
+    <path d="M82 46 L90 46 L90 54 L98 54" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="82" cy="46" r="2.5" fill="#1a365d"/>
+    <circle cx="98" cy="54" r="2.5" fill="#1a365d"/>
+
+    <path d="M76 62 L88 62 L88 70" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="76" cy="62" r="2" fill="#1a365d"/>
+    <circle cx="88" cy="70" r="2" fill="#1a365d"/>
+
+    <!-- Circuit traces - center -->
+    <path d="M52 18 L52 26 L60 26" stroke="#1a365d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <circle cx="52" cy="18" r="2" fill="#1a365d"/>
+    <circle cx="60" cy="26" r="2" fill="#1a365d"/>
+
+    <!-- Upward trending arrow -->
+    <path d="M38 72 L52 38 L64 52 L88 14"
+          fill="none"
+          stroke="url(#arrowGrad)"
+          stroke-width="7"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Arrow head -->
+    <polygon points="88,14 76,22 80,28" fill="#3182ce"/>
+  </g>
+
+  <!-- Company name text -->
+  <text x="128" y="38" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="26" fill="#1a365d" letter-spacing="0.5">DATATECH</text>
+  <text x="128" y="62" font-family="Arial, sans-serif" font-weight="600" font-size="13" fill="#3182ce" letter-spacing="3">INNOVATIONS</text>
+</svg>
