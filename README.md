@@ -26,4 +26,4 @@ Email: balaji.krishnan@nanba.co.uk
 
 ## License
 
-Copyright 2025 DataTech Innovations Ltd. All rights reserved.
+Copyright 2025 Datatech Innovations Ltd. All rights reserved.
