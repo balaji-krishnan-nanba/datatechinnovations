@@ -1,6 +1,6 @@
-# DataTech Innovations Ltd
+# DataTech Innovations
 
-Official website for DataTech Innovations Ltd - Expert Data Consulting and Digital Solutions.
+Official website for DataTech Innovations - Expert Data Consulting and Digital Solutions.
 
 ## About
 
@@ -26,4 +26,4 @@ Email: balaji.krishnan@nanba.co.uk
 
 ## License
 
-Copyright 2024 DataTech Innovations Ltd. All rights reserved.
+Copyright 2025 DataTech Innovations Ltd. All rights reserved.
