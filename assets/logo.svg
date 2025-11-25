@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="arrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#4299e1"/>
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2b6cb0"/>
+      <stop offset="100%" style="stop-color:#1a365d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cloud outline with circuit patterns -->
+  <g transform="translate(10, 5)">
+    <!-- Cloud shape -->
+    <path d="M75 65 C60 65 50 55 50 42 C50 28 62 18 78 18 C82 8 95 2 110 2 C130 2 145 15 148 32 C165 34 178 48 178 65 C178 82 163 95 145 95 L75 95 C57 95 42 82 42 65 C42 55 50 48 60 48"
+          fill="none"
+          stroke="url(#cloudGrad)"
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Circuit traces inside cloud -->
+    <g stroke="url(#cloudGrad)" stroke-width="1.5" fill="none">
+      <!-- Left side circuits -->
+      <path d="M60 50 L70 50 L70 60 L80 60"/>
+      <circle cx="60" cy="50" r="3" fill="url(#cloudGrad)"/>
+      <circle cx="80" cy="60" r="2.5" fill="url(#cloudGrad)"/>
+
+      <path d="M65 70 L75 70 L75 80"/>
+      <circle cx="65" cy="70" r="2.5" fill="url(#cloudGrad)"/>
+      <circle cx="75" cy="80" r="2.5" fill="url(#cloudGrad)"/>
+
+      <!-- Right side circuits -->
+      <path d="M145 45 L155 45 L155 55 L165 55"/>
+      <circle cx="145" cy="45" r="2.5" fill="url(#cloudGrad)"/>
+      <circle cx="165" cy="55" r="3" fill="url(#cloudGrad)"/>
+
+      <path d="M140 65 L150 65 L150 75 L160 75"/>
+      <circle cx="140" cy="65" r="2.5" fill="url(#cloudGrad)"/>
+      <circle cx="160" cy="75" r="2.5" fill="url(#cloudGrad)"/>
+
+      <!-- Center circuits -->
+      <path d="M100 30 L100 40 L110 40"/>
+      <circle cx="100" cy="30" r="2.5" fill="url(#cloudGrad)"/>
+      <circle cx="110" cy="40" r="2.5" fill="url(#cloudGrad)"/>
+    </g>
+
+    <!-- Upward arrow through cloud -->
+    <path d="M90 88 L110 20 L130 50 L150 8"
+          fill="none"
+          stroke="url(#arrowGrad)"
+          stroke-width="8"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Arrow head -->
+    <polygon points="150,8 140,25 155,22" fill="url(#arrowGrad)"/>
+  </g>
+
+  <!-- Company name -->
+  <text x="200" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="32" fill="#1a365d">DATATECH</text>
+  <text x="200" y="90" font-family="Arial, sans-serif" font-weight="600" font-size="20" fill="#4299e1" letter-spacing="3">INNOVATIONS LTD</text>
+</svg>
